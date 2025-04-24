@@ -11,7 +11,8 @@
 		"dev": "next dev --turbo --port=4005",
 		"preview": "next build && next start",
 		"start": "next start",
-		"typecheck": "tsc --noEmit"
+		"typecheck": "tsc --noEmit",
+		"postinstall": "prisma generate"
 	},
 	"dependencies": {
 		"@prisma/client": "^6.6.0",
